@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">rynemccall.com</a></li>
+        <li><a href="mailto:website@rynemccall.com">E-mail me</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>{{ title }}</h1>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>
