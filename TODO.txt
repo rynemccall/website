@@ -1,0 +1,17 @@
+# High priority
+
+o Copy images from GitHub pages repo and delete GH pages repo
+o Fix updated date list/scalar processing in `_includes/post.njk` `{{ updated | last | safe }}`
+
+# Mid priority
+
+o Style header
+o Style footer
+o Style content
+
+# Low priority
+
+o Style code blocks
+o Convert this file to README.md and make 11ty ignore processing it
+
+# Done
