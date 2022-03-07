@@ -1,6 +1,15 @@
 ---
 layout: base.njk
 ---
+<aside>
+  <ul>
+    <li>Published: {{ date | safe }}</li>
+    {% if updated %}
+      <li>Last updated: {{ updated | last | safe }}</li>
+    {% endif %}
+  </ul>
+</aside>
+
 {{ content | safe }}
 
 {% set previousPost = collections.post | getPreviousCollectionItem(page) %}
