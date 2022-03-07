@@ -8,6 +8,10 @@ o Fix updated date list/scalar processing in `_includes/post.njk` `{{ updated | 
 o Style header
 o Style footer
 o Style content
+o Describe how site is hosted/deployed
+  * Repo is at GH
+  * DNS configured at Google domains
+  * Deployed to https://app.netlify.com/sites/rynemccall-com/overview
 
 # Low priority
 
